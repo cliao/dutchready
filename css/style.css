@@ -149,7 +149,11 @@ nav {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%; 
-    height: 120vh;   
+    height: 100vh;   
+}
+
+#ourlessons {
+    padding-top: 100px;
 }
 
 #testimonial {
@@ -208,6 +212,7 @@ nav {
     text-transform: uppercase;
     background-color: #ffffff;
     letter-spacing: 2px;
+    margin: auto;    
     border-radius: 50px;
 }
 
@@ -229,6 +234,17 @@ nav {
 
 .toplg {
     margin-top: 70px;
+}
+
+.card {
+    color: #111918;
+    padding: 14px;
+    margin: 50px 3px 20px 3px;
+    border: 1px #808080 solid;
+    width: 32%;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 #top {
@@ -305,21 +321,6 @@ nav {
         margin-top: -300px;
     }
 
-    #about {
-        margin-top: 0;
-        margin-bottom: 200px;
-    }
-    .solid {
-        width: 100%;
-        height: 420px;
-        top: -130px;
-        position: absolute;
-        background: #ffffff;
-        z-index: 0;
-    }
-    .preview {
-        margin-bottom: 200px;
-    }
     .menu {
         background-color: white;
         padding: 30px 60px 0;
@@ -355,24 +356,10 @@ nav {
     padding-left: 40px;
     padding-right: 0;
     }
-    .menuproject {
-        background-color: transparent;
-        padding: 30px 60px 0;
-    }
-    .menuproject li {
-    padding-left: 40px;
-    padding-right: 0;
-    }
-    .projecthero {
-        padding-top: 0;
-    }
+    
     .nav {
         text-align: right;
     }
-    .details {
-        visibility: visible;
-    }
-
     .topsm {
         margin-top: 40px;
     }
