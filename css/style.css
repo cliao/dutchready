@@ -143,10 +143,7 @@ nav {
    –––––––––––––––––––––––––––– */
 
 #hero {
-    background-image: url("../img/bg.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100%; 
+    background: linear-gradient(-17deg,transparent 60%,rgba(242,247,253,1) 60%);  
     height: 100vh;   
 }
 
@@ -211,6 +208,10 @@ nav {
 
 .logo{
     color: #F47637;
+}
+
+.herotext {
+    padding-top: 25vh;
 }
 
 .button {
@@ -319,12 +320,7 @@ nav {
 /*for tablet*/
 
 @media (min-width: 768px) {
-    .push {
-        margin-top: 100px;
-    }
-    .bottomoverlap {
-        margin-top: -200px;
-    }
+
 }
 
 /*for desktop*/
@@ -337,6 +333,14 @@ nav {
     h5 {}
     h6 {}
     img {}
+
+    #hero {
+        background-image: url("../img/bg.jpg");
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
+
     .photo {
         padding: 0;
         -webkit-box-shadow: -12px 12px 25px 0 rgba(0, 0, 0, 0.14);
