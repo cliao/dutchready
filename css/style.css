@@ -128,14 +128,17 @@ nav {
     left: 0;
     padding: 10px 0 0px;
     z-index: 1;
+    background-color: white;
 }
 
 .menu li {
-    padding: 0 20px 0 15px;
+    padding: 5px 20px 0 0 ;
     display: inline-block;
 }
 
-
+.hidden {
+    display: none;
+}
 
 
 /* ––––––––––––––––––––––––––––
@@ -174,10 +177,6 @@ nav {
 
 #contact {
     padding-top: 80px;
-    background-image: url("../img/founder.jpg");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: 60%; 
 }
 
 #footer {
@@ -287,6 +286,10 @@ nav {
     text-transform: none;
 }
 
+.mobile {
+    display: block;
+}
+
  #circle {
       width: 200px;
       height: 200px;
@@ -306,7 +309,7 @@ nav {
 }
 
 .topmd {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .toplg {
@@ -341,37 +344,32 @@ nav {
         background-size: 100%; 
     }
 
-    .photo {
-        padding: 0;
-        -webkit-box-shadow: -12px 12px 25px 0 rgba(0, 0, 0, 0.14);
-        -moz-box-shadow: -12px 12px 25px 0 rgba(0, 0, 0, 0.14);
-        box-shadow: -12px 12px 25px 0 rgba(0, 0, 0, 0.14);
+    #contact {
+        background-image: url("../img/founder.jpg");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 60%; 
     }
-    .side {
-        display: inline;
-    }
+
     nav {
         display: inline;
     }
+
     .herotext {
         padding-top: 25vh;
     }
+
     .herodetails {
-    display: block;
-    }
-    .bottomoverlap {
-        margin-top: -300px;
+        display: block;
     }
 
     .menu {
-        background-color: white;
         padding: 30px 60px 0;
     }
 
     .white {
         background-color: transparent;
     }
-
 
     .transition {
         -webkit-transition: all .4s ease-in-out;
@@ -401,6 +399,14 @@ nav {
     
     .nav {
         text-align: right;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
     }
     .topsm {
         margin-top: 40px;
