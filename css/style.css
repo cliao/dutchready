@@ -218,7 +218,7 @@ nav {
 .button {
     color: #ffffff;
     padding: 14px;
-    width: 220px;
+    width: 200px;
     text-align: center;
     text-transform: uppercase;
     background-color: #F47637;
@@ -229,7 +229,7 @@ nav {
 .buttonwhite {
     color: #111918;
     padding: 14px;
-    width: 220px;
+    width: 200px;
     text-align: center;
     text-transform: uppercase;
     background-color: #ffffff;
@@ -260,16 +260,13 @@ nav {
     padding: 30px 30px 25px ;
     margin: 50px 3px 20px 3px;
     border: 1px #d3d3d3 solid;
-    width: 32%;
+    width: 90%;
     text-align: center;
     border-radius: 10px;
     display: inline-block;
     height: 270px;
 }
 
-.tall {
-    height: 300px;
-}
 
 .popular {
     width: 40px;
@@ -404,6 +401,27 @@ nav {
     padding-right: 0;
     }
     
+
+    .card {
+        padding: 30px 30px 25px ;
+        margin: 50px 3px 20px 3px;
+        border: 1px #d3d3d3 solid;
+        width: 32%;
+        display: inline-block;
+        height: 270px;
+    }
+
+    .tall {
+        height: 300px;
+    }
+
+    .popular {
+        width: 40px;
+        top: -25px;
+        left: 45%;
+        position: absolute;
+    }
+
     .nav {
         text-align: right;
     }
