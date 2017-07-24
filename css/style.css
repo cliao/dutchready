@@ -178,6 +178,7 @@ nav {
 
 #contact {
     padding-top: 80px;
+    padding-bottom: 0;
 }
 
 #footer {
@@ -300,9 +301,12 @@ nav {
 }
 
 .founder{
-    width: 40%;
+    position: relative;
 }
 
+.founderpic{
+    margin-bottom: 0;
+}
 
 /* ––––––––––––––––––––––––––––
    SPACING
@@ -417,6 +421,12 @@ nav {
         top: -25px;
         left: 45%;
         position: absolute;
+    }
+
+    .founderpic{
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 
     .nav {
