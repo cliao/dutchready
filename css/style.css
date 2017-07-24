@@ -193,17 +193,28 @@ nav {
 .button {
     color: #ffffff;
     padding: 14px;
-    width: 200px;
+    width: 240px;
     text-align: center;
     text-transform: uppercase;
     background-color: #F47637;
     letter-spacing: 2px;
     border-radius: 6px;
 }
+.buttoncard {
+    color: #ffffff;
+    padding: 14px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F47637;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    margin: auto;
+}
 .buttonwhite {
     color: #111918;
     padding: 14px;
-    width: 200px;
+    width: 240px;
     text-align: center;
     text-transform: uppercase;
     background-color: #ffffff;
@@ -287,7 +298,8 @@ nav {
 
 /*for tablet*/
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 /*for desktop*/
 
@@ -350,10 +362,10 @@ nav {
         border: 1px #d3d3d3 solid;
         width: 32%;
         display: inline-block;
-        height: 270px;
+        height: 100%;
     }
     .tall {
-        height: 300px;
+        height: 110%;
     }
     .popular {
         width: 40px;
