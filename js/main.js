@@ -24,3 +24,7 @@ $('.scroll').on('click', function(e){
       scrollTop : $(this.hash).offset().top
     }, 1500);
 });
+
+// 
+// HAMBURGER MENU
+// 

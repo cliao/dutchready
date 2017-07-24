@@ -80,6 +80,7 @@ h5 {
 h6 {
     font-size: 2.2rem;
     font-weight: 800;
+    color: #132547;
 }
 .center {
     text-align: center;
@@ -94,10 +95,6 @@ h6 {
 /* ––––––––––––––––––––––––––––
    NAVIGATION
    –––––––––––––––––––––––––––– */
-
-nav {
-    display: none;
-}
 .menu {
     position: fixed;
     top: 0;
@@ -107,11 +104,17 @@ nav {
     padding: 10px 0 0px;
     z-index: 1;
     background-color: white;
+    border-bottom: 1px solid #e4e4e4;
 }
 .menu li {
-    padding: 5px 20px 0 0;
+    padding: 8px 10px 0 0;
     display: inline-block;
 }
+
+.menu li a {
+    font-size: .75rem;
+} 
+
 .hidden {
     display: none;
 }
@@ -320,17 +323,24 @@ nav {
     #pricingplans {
         background-size: 12%;
     }
-    nav {
-        display: inline;
-    }
     .herotext {
         padding-top: 200px;
     }
     .herodetails {
         display: block;
     }
+    .nav {
+        text-align: right;
+    }
     .menu {
         padding: 30px 60px 0;
+        border-bottom: none;
+    }
+    .menu li {
+        padding: 0px 40px 0 0;
+    }
+    .menu li a {
+        font-size: .9rem;
     }
     .white {
         background-color: transparent;
@@ -352,10 +362,6 @@ nav {
         -moz-transition: all .4s ease-in-out;
         -o-transition: all .4s ease-in-out;
         transition: all .4s ease-in-out;
-    }
-    .menu li {
-        padding-left: 40px;
-        padding-right: 0;
     }
     .card {
         padding: 30px 30px 25px;
@@ -379,15 +385,6 @@ nav {
         bottom: 0;
         right: 0;
     }
-    .nav {
-        text-align: right;
-    }
-    .hidden {
-        display: block;
-    }
-    .mobile {
-        display: none;
-    }
     .topsm {
         margin-top: 40px;
     }
@@ -399,5 +396,11 @@ nav {
     }
     .topxl {
         margin-top: 350px;
+    }
+    .hidden {
+        display: block;
+    }
+    .mobile {
+        display: none;
     }
 }
