@@ -329,6 +329,17 @@ h6 {
     }
     #pricingplans {
         background-size: 12%;
+        background-image: url("../img/windmill.png");
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: 40%;
+    }
+    #contact {
+        background-size: 12%;
+        background-image: url("../img/tulips.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 40%;
     }
     .herotext {
         padding-top: 200px;
