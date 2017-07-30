@@ -148,7 +148,7 @@ h6 {
     background-image: url("../img/leaf1.jpg");
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: 32%;
+    background-size: 50%;
 }
 #specialoffer {
     padding: 40px 0 40px;
@@ -160,6 +160,7 @@ h6 {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7292bf', endColorstr='#f18555', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
+
 }
 #contact {
     padding-top: 80px;
@@ -332,7 +333,7 @@ h6 {
         background-image: url("../img/windmill.png");
         background-position: bottom left;
         background-repeat: no-repeat;
-        background-size: 40%;
+        background-size: 100%;
     }
     #contact {
         background-size: 12%;
@@ -340,6 +341,12 @@ h6 {
         background-position: bottom right;
         background-repeat: no-repeat;
         background-size: 40%;
+    }
+    #testimonial {
+        background-image: url("../img/texture1.png");
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
     .herotext {
         padding-top: 200px;
