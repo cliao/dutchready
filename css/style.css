@@ -254,7 +254,10 @@ h6 {
     color: #111918;
     padding: 30px 30px 25px;
     margin: 50px 3px 20px 3px;
-    border: 1px #d3d3d3 solid;
+    border: none;
+    -webkit-box-shadow: 0px 5px 20px 4px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 5px 20px 4px rgba(0,0,0,0.07);
+    box-shadow: 0px 5px 20px 4px rgba(0,0,0,0.07);
     width: 90%;
     text-align: center;
     border-radius: 6px;
@@ -390,9 +393,8 @@ h6 {
     }
     .card {
         padding: 30px 30px 25px;
-        margin: 50px 3px 20px 3px;
-        border: 1px #d3d3d3 solid;
-        width: 32%;
+        margin: 50px 10px 20px 10px;
+        width: 30%;
         display: inline-block;
         height: 100%;
     }
