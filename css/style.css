@@ -130,7 +130,8 @@ h6 {
    –––––––––––––––––––––––––––– */
 
 #hero {
-    background-image: url("../img/bg.jpg");
+    border-top: 50px solid #ffffff;
+    background-image: url("../img/bg.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -144,7 +145,7 @@ h6 {
 }
 #pricingplans {
     padding: 80px 0 80px;
-    background-image: url("../img/leaf1.jpg");
+    background-image: url("../img/leaf.png");
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -324,7 +325,8 @@ h6 {
     h6 {}
     img {}
     #hero {
-        background-image: url("../img/bg.jpg");
+        border-top: none;
+        background-image: url("../img/bg.png");
         background-position: top right;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -346,7 +348,7 @@ h6 {
     }
     #testimonial {
         background-image: url("../img/texture1.png");
-        background-position: top right;
+        background-position: bottom right;
         background-repeat: no-repeat;
         background-size: 100%;
     }
