@@ -46,41 +46,44 @@ a:active {
     text-decoration: none;
 }
 h1 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #111918;
+}
+h2 {
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 2.8rem;
     margin-bottom: 14px;
     color: #132547;
 }
-h2 {
-    font-size: 1.2rem;
+
+h3 {
+    font-size: 1rem;
     line-height: 1.8rem;
     color: #111918;
 }
-h3 {
+
+h4 {
     font-size: 1.4rem;
     font-weight: 800;
     line-height: 2rem;
     color: #F47637;
 }
-h3 a {
+h4 a {
     font-weight: 400;
 }
-h4 {
+
+h5 {
     font-size: 1.4rem;
     line-height: 2.4rem;
     font-style: italic;
     font-weight: 300;
 }
-h5 {
+h6 {
     font-size: 1rem;
     line-height: 1.8rem;
     font-weight: 300;
-}
-h6 {
-    font-size: 2.2rem;
-    font-weight: 800;
-    color: #132547;
 }
 .center {
     text-align: center;
@@ -91,7 +94,11 @@ h6 {
 .white {
     color: #ffffff;
 }
-
+.pricing {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #132547;
+}
 .basic {
     text-decoration: underline;
     text-transform: none;
@@ -197,6 +204,10 @@ h6 {
 }
 .logo {
     color: #F47637;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin-bottom: 14px;
 }
 .herotext {
     padding-top: 250px;
