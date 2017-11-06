@@ -144,7 +144,11 @@ h6 {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#ourlessons {
+#method {
+    background-color: #f0f5fa;
+    padding: 80px 0 80px;
+}
+#usps {
     padding-top: 100px;
 }
 #testimonial {
@@ -245,6 +249,17 @@ h6 {
     margin: auto;
     border-radius: 6px;
 }
+/*.buttonblue {
+    color: #ffffff;
+    padding: 14px;
+    width: 240px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #6e8fb6;
+    letter-spacing: 2px;
+    margin: auto;
+    border-radius: 6px;
+}*/
 .grow {
     transition: all .2s ease-in-out;
 }
