@@ -60,10 +60,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 800;
     line-height: 2rem;
-    color: #F47637;
+    color: #000000;
 }
 
 h3 a {
@@ -71,7 +71,7 @@ h3 a {
 }
 
 h4 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 2.4rem;
     font-style: italic;
     font-weight: 300;
@@ -104,6 +104,31 @@ h6 {
     text-decoration: underline;
     text-transform: none;
     font-weight: 300;
+}
+.orange {
+    color: #F47637;
+}
+.examples {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+
+red {
+    border-bottom: 3px solid #e76666;
+}
+
+purple {
+    border-bottom: 3px solid #7f54ec;
+
+}
+
+blue {
+    border-bottom: 3px solid #45b1ff;
+
+}
+
+green {
+    border-bottom: 3px solid #72b55d;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -181,6 +206,25 @@ h6 {
 #footer {
     padding: 20px 0 20px;
     border-top: solid 1px #d3d3d3;
+}
+
+#method1{
+    padding: 110px 0 110px;
+    background: -moz-linear-gradient(45deg, rgba(114, 146, 191, 1) 0%, rgba(117, 69, 132, 0.5) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(114, 146, 191, 1) 0%, rgba(117, 69, 132, 0.5) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(114, 146, 191, 1) 0%, rgba(117, 69, 132, 0.5) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7292bf', endColorstr='#f18555', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+#method2{
+    padding: 80px 0 80px;
+    background-image: url("../img/leaf.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
 /* ––––––––––––––––––––––––––––
@@ -286,11 +330,7 @@ h6 {
     left: 45%;
     position: absolute;
 }
-.name {
-    color: #808080;
-}
 .level {
-    color: #808080;
     font-weight: 300;
     text-transform: none;
 }
@@ -365,6 +405,13 @@ h6 {
     #testimonial {
         background-image: url("../img/texture1.png");
         background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #method2 {
+        background-size: 12%;
+        background-image: url("../img/windmill.png");
+        background-position: bottom left;
         background-repeat: no-repeat;
         background-size: 100%;
     }
