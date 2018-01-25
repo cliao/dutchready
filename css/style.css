@@ -252,10 +252,7 @@ green {
     top: 0;
 }
 .logo {
-    color: #F47637;
-    font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 2.8rem;
+    width: 180px;
     margin-bottom: 14px;
 }
 .herotext {
@@ -436,6 +433,9 @@ green {
     }
     .white {
         background-color: transparent;
+    }
+    .logo {
+        width: 250px;
     }
     .transition {
         -webkit-transition: all .4s ease-in-out;
